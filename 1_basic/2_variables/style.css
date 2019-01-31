@@ -1,0 +1,74 @@
+html{
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+body{
+    margin: 0;
+}
+
+article{
+    margin: 0 auto 2rem;
+    width: 80%;
+}
+
+h1{
+    background-color: aquamarine;
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+    padding: 2rem;
+  
+}
+
+button{
+    font-weight: bold;
+    padding: .5rem .8rem;
+}
+
+button:hover{
+background-color:aquamarine;
+cursor: pointer;
+}
+
+a{
+    font-weight: bold;
+}
+
+.wrapper{
+    margin: auto;
+       
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.note{
+    border-radius: 25px;
+    background-color: #e2e2e2;
+    padding: 1rem;
+}
+
+.wrapper{
+margin: auto;
+   
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-none{
+    display: none;
+}
+
+.flex-justify-around{
+    justify-content: space-around;
+}
+
+.wt-border{
+    border: 1px solid gray;
+    padding: 10px
+}

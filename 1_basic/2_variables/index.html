@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>Variables</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Variables</h1>
+        <article class="display-flex flex-justify-around">
+            <section class="l-side wt-border">
+                <h3>Global and local variables In vanilla JS (ES5):</h3>
+                <h2>Local variable (var)</h2>
+                <ul>
+                    <li>Created by using the var declaration (var x).</li>
+                    <li>Local variable can be initiated with the decleration (var x = "yellow").</li>
+                    <li>Var decleration are processed before any code is executed (hoisting).</li>
+                    <li>A redeclared variable dosen't lose its value.</li>
+                    <li>A variable that has been declared but has not been initiated has the value of undefined.</li>
+                    <li>Its scope is the current execution context (global or function).</li>
+                </ul>
+                <h2>Global variable</h2>
+                <ul>
+                    <li>An undeclared variable is a global variable (x = 5).</li>
+                    <li>Vanilla JS strict mode will throw an error for an undeclared variable.</li>
+                    <li>Variable of the global scope become a property of the global object, Including the global
+                        variable that was declared with a var (i.e., window).</li>
+                </ul>
+            </section>
+            <section class="r-side  wt-border">
+                <h3>Constant and local variables in JS (ES6):</h3>
+                <h2>Local variable (let)</h2>
+                <ul>
+                    <li>Created by using the let declaration (let x).</li>
+                    <li>Local variable can be initiated with the decleration (let x = "yellow").</li>
+                    <li>Can't be redclared.</li>
+                    <li>A variable declared with let is not hoisted.</li>
+                    <li>A variable that has been declared but has not been initiated has the value of undefined.</li>
+                    <li>Its scope is the current enclosure context (global, function, loop, if, etc.).</li>
+                    <li>Doesn't become a property of the global object.</li>
+                </ul>
+                <h2>Constant (const)</h2>
+                <ul>
+                    <li>Created by using the const declaration (const x).</li>
+                    <li>Must be initialized (const x = 8).</li>
+                    <li>Its scope is the current enclosure context (global, function, loop, if, etc.).</li>
+                    <li>A constant can't be reassigned.</li>
+                </ul>
+            </section>
+        </article>
+
+        <article>
+            <h3>JS variables naming rules and convention</h3>
+            <ul>
+                <li class="bold">A variable name can contain only letters, numbers, $ and '_'.</li>
+                <li class="bold">A variable name can't start with a number'.</li>
+                <li>Should only start with a lowercase letter.</li>
+                <li>Two words should be written in camelCase format.</li>
+                <li>The '_' shouldn't be the first or last character of the variable name.</li>
+            </ul>
+        </article>
+        <article>
+            <button id="display-homework">Display Homework</button>
+            <div id="home-work" class="display-none">
+                <h3>Homework</h3>
+                <ul>
+                    <li>List the variables that you are farmiliar with. The use of which of the variables should be
+                        avoided and why?</li>
+                    <li>When will a variable become a property of the global object?</li>
+                    <li>What are the differences between 'var' and 'let'?</li>
+                    <li>What is hoisting? The answer should include the variable kinds that can be hoisted.</li>
+                    <li>Write in your own words the rules and the conventions for JS variable naming.</li>
+                </ul>
+            </div>
+        </article>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
