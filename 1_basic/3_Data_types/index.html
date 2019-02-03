@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>Data types</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Data types</h1>
+        <article>
+            <h3>JS has two categories of variables: Primitives and Objects.</h3>
+            <article class="display-flex">
+                <div class="wt-border w-50">
+                    <h2>Primitives</h2>
+                    <p>List of the different primitive data types:</p>
+                    <ul>
+                        <li>Number (5, 7.2).</li>
+                        <li>String ("5", "Foo", "true", "false", "undefined").</li>
+                        <li>Boolean (true, false).</li>
+                        <li>Undefined -
+                            <ul>
+                                <li>It is the type of a variable that has been declared but has not been initialized.</li>
+                                <li>The type of an undeclared variable.</li>
+                                <li>A function that lacks an explicit return statement will return undefined.</li>
+                            </ul>
+                        </li>
+                        <li>*Null - It is the value of nothing and it must be assigned to a variable.</li>
+                        <li>Symbol (ES6).</li>
+                    </ul>
+                    <p>Copied by their value.</p>
+                    <p>Are immutable i.e., can't be changed.</p>
+                </div>
+                <div class="wt-border w-50">
+                    <h2>Objects</h2>
+                    <p>All the listed items are of type Object.</p>
+                    <ul>
+                        <li>*Function (function(){}).</li>
+                        <li>Array ([]).</li>
+                        <li>Object ({}).</li>
+                    </ul>
+                    <br><br>
+                    <p>Copied by a reference.</p>
+                    <p>Can be changed.</p>
+                </div>
+            </article>
+            <p class="note">Use the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+                    target="_blank">'typeof'</a> operator to retrieve the type of an element. Syntax: typeof x;</p>
+
+                    <h3>Class practice:</h3>
+                    <ol>
+                        <li>Create a form with 2 number inputs. Use a JS event to collect the inputs value, sum them up and inject the result to the DOM.</li>
+                        <li>Fill the form with the values 4 and 6.</li>
+                    </ol>
+        </article>
+        <article>
+            <div class="practice"></div>
+            <button id="display-homework">Display HomeWork</button>
+            <div id="home-work" class="display-none">
+                <h3>Homework</h3>
+                <ol>
+                    <li>How many data types are there in JS?</li>
+                    <li>Write a script to inject your answer to the DOM. Do not use a function.</li>
+                    <li>Get yourself familiar with the following String methods:
+                        <ul>
+                            <li>charCodeAt()</li>
+                            <li>indexOf()</li>
+                            <li>includes()</li>
+                        </ul>
+                    </li>
+                    <li>Explain what each method does and write a working example.</li>
+                    <li>Get yourself familiar with at least 5 more String methods of your choice and write
+                        working examples.</li>
+                    <li>Inisialize a String variable in two different ways. Is there any difference between the
+                        results? </li>
+                </ol>
+            </div>
+        </article>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

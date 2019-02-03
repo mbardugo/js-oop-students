@@ -1,0 +1,49 @@
+.wrapper {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#chessboard-container {
+  margin: 5% auto;
+}
+
+.square {
+  height: 5vw;
+  width: 5vw;
+}
+
+.index {
+  line-height: 5vw;
+  width: 1vw;
+}
+
+.letters-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2vw;
+}
+
+.letters-container .square {
+  height: 2vw;
+  text-align: center;
+}
+
+.board-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.board-row .square {
+  text-align: center;
+}
+
+.square-wheat {
+  background-color: wheat;
+}
+
+.square-black {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title>Type conversion</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Types conversion</h1>
+        <article>
+            <h3>Convert to a String:</h3>
+            <ul>
+                <li>
+                    <p>By using the global method String().</p>
+                    <span>Syntax: String(x);</span>
+                </li>
+                <li>
+                    <p>By using the Number method toString().</p>
+                    <span>Syntax: x.toString();</span>
+                </li>
+                <li>
+                    <p>By using the ' + ' operator when one of the elements is a string.</p>
+                    <span>Syntax: '7' + 12; /Returns 712</span>
+                </li>
+            </ul>
+            <h3>Convert to a Number:</h3>
+            <ul>
+                <li>
+                    <p>By using the global method Number().</p>
+                    <span>Syntax: Number(x);</span>
+                </li>
+                <li>
+                    <p>By using the function parseFloat().</p>
+                    <span>Syntax: parseFloat('a string starting with a numeric character');//Returns a floating number.</span>
+                </li>
+                <li><p>By using the function parseInt().</p>
+                <span>Syntax: parseInt('a string starting with a numeric character');//Returns an integer number.</span>
+            </li>
+            </ul>
+            <h3>Convert to a Boolean:</h3>
+            <ul>
+                <li>
+                    <p>By using the global method Boolean().</p>
+                    <span>Syntax: Booleadn(x);</span>
+                    <p> 0, false, null, undefined, '' -> will return false. All the others (everything with a value)
+                        will return true.</p>
+                </li>
+            </ul>
+            <div class="practice"></div>
+        </article>
+        <article>
+            <button id="display-homework">Display HomeWork</button>
+            <div id="home-work" class="display-none">
+                <h3>HomeWork</h3>
+                <ol>
+                    <li>Use String() or toString() and write what happens when:
+                        <ul>
+                            <li>Converting a number to a String.</li>
+                            <li>Converting an object to a String.</li>
+                            <li>Converting an array to a String.</li>
+                            <li>Converting a boolean to a String.</li>
+                            <li>Converting a date object to a String.</li>
+                        </ul>
+                     If you get an unexpected result, search the web for an explanation and write it down.
+                    </li>
+                    <li>Check and write what happens when:
+                        <ul>
+                            <li>Converting a string to a Number.</li>
+                            <li>Converting an object to a Number.</li>
+                            <li>Converting an array to a Number.</li>
+                            <li>Converting a boolean to a NumbFer.</li>
+                            <li>Converting a date object to a Number.</li>
+                        </ul>
+                        If you get an unexpected result, search the web for an explanation and write it down.
+                    </li>
+                    <li>Check the w3schools site for parseFloat() examples.</li>
+                    <li>Check the w3schools site for parseInt() examples.</li>
+                    <li>Check the w3schools site for split(). Explain this method and provide at least 3 examples.</li>
+                </ol>
+            </div>
+        </article>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

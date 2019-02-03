@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title>Loops</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Loops</h1>
+        <article>
+            <h3>About</h3>
+            <ol>
+                <li>Loops are precious tools for programmers as they gives us the ability to do a repetitive actions
+                    for a group of elements by certain criteria.
+                </li>
+                <li><span class="bold">'While', 'do while' </span> and <span class="bold"> 'for' </span>are useful when
+                    want to execute code as
+                    long as a certain criterion is true. Those loops can iterate through an array using its index.
+                </li>
+                <li>Iterate through an object with the<span class="bold"> 'for-in' </span>loop.</li>
+                <li>Iterate through an array with <span class="bold">'foreach'</span> or with the <span class="bold">'map'</span>
+                    methods. The map() method is designed to create a new array and to return it, while the forEach()
+                    method returns the value of undefined.</li>
+            </ol>
+            <h3>Skip or stop the iteration</h3>
+            <ul>
+                <li><span class="bold">Break statement - </span> exit the loops mentioned in rows 2-3.</li>
+                <li><span class="bold">Continue statement - </span> skip to the next iteraton of the loops
+                    mentioned in rows 2-3. </li>
+                <li><span class="bold">Return statement - </span> acts as the continue statement in the forEach and map
+                    methods.</li>
+            </ul>
+            <h3>Class practice</h3>
+            <p>Data is available in the data.js file.</p>
+            <ol>
+                <li>Use the for loop to iterate through nameArr, create an ordered list with the names and append it to
+                    the DOM.</li>
+                <li>Use the while loop to iterate through nameArr, convert the values to uppercase and append them to the DOM as a
+                    single 'p' element with the names seperated by commas. This paragraph should be displayed below
+                    the list you have created in step 1.</li>
+                <li>Use substring() to remove the last comma and add a period to the end of the paragraph.</li>
+                <li>Use an alternative to loops to achieve a similar result as in stpes 2 + 3.</li>
+                <li>Advanced: Use the while loop to iterate through the numArr, and execute one of the followig
+                    statments, the most appropriate one:
+                    <ul>
+                        <li>If the remainder of division by 4 is 0, log to the console the number with the
+                            statment "The number is divisible by 4."</li>
+                        <li>If the remainder of division by 3 is 0, and the remainder of division by 4 is
+                            0, log to the console the number with the statment "The number is divisible
+                            by 12."</li>
+                        <li>If the remainder of division by 3 is 0, but the remainder of division by 4 is
+                            greater than 0, skip to the next iteration."</li>
+                        <li>If the remainder of division by 4 is 0, and the remainder of division by 50 is
+                            0, break the loop."</li>
+                    </ul>
+            </ol>
+            <div class="practice"></div>
+        </article>
+        <article>
+            <button id="display-homework">Display HomeWork</button>
+            <div id="home-work" class="display-none">
+                <h3>Homework</h3>
+                <ol>
+                    <li>Familiarize yourself with <a href="https://www.w3schools.com/js/js_arithmetic.asp" target="_blank">
+                            JS arithmetics</a>.</li>
+
+                    <li>Familiarize yourself with <a href="https://www.w3schools.com/js/js_random.asp" target="_blank">
+                            Math.random()</a>.</li>
+                    <li>Random design:
+                        <ul>
+                            <li>Create an index.html file with 300 'p' elements.</li>
+                            <li>Create a style.css file with 10 classes, each one with unique style declerations.<br>If
+                                you wish, you can get some insperation <a href="https://css-tricks.com/the-shapes-of-css/"
+                                    target="_blank"> here </a>.</li>
+                            <li>Create a random.js fle with a script that randomly adds a class to each of the exising
+                                'p' elements.</li>
+                            <li>Count how many times each class appears in the DOM. Create a list with the results and
+                                add it to the top of your page.</li>
+                        </ul>
+                    </li>
+                    <li>Draw a chessboard on the page using JS loops.</li>
+                </ol>
+            </div>
+        </article>
+    </div>
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
